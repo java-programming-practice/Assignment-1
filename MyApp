@@ -1,0 +1,14 @@
+
+/**
+ * 과제#1
+ *
+ * @author (2019315027 최서연 2019315036 허다희)
+ * @version (2020.11.03)
+ */
+public class MyApp
+{
+    public static void main(String args[]){
+        CalculatorFrame CF = new CalculatorFrame();
+    
+    }
+}
