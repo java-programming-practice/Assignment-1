@@ -1,0 +1,19 @@
+import javax.swing.*;
+import java.awt.*;
+/**
+ * 과제#1 - NorthPanel 클래스
+ * 
+ * @author (2019315027 최서연 2019315036 허다희) 
+ * @version (2020. 11. 03)
+ */
+public class NorthPanel extends JPanel
+{   
+    public NorthPanel()
+    {
+        this.setLayout(new FlowLayout(FlowLayout.LEFT));
+        this.setBackground(Color.YELLOW);
+        
+        this.add(new JLabel("계산 결과"));
+        this.add(new JTextField("", 16));
+    }
+}
